@@ -1,0 +1,381 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* line 17, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 35, ../sass/screen.scss */
+body {
+  font-size: 100%;
+  width: 100%;
+  font-family: "open sans", sans;
+  color: #3e3e3e;
+  background: #fff8f1 url(../images/patterns/retina_wood.png);
+}
+
+/* line 43, ../sass/screen.scss */
+.wrapp {
+  padding: 0 1em;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+/* line 49, ../sass/screen.scss */
+.content {
+  padding: 2em 1em;
+}
+
+/* line 54, ../sass/screen.scss */
+#articulo .content {
+  padding-top: 5em;
+}
+
+/* line 59, ../sass/screen.scss */
+.cinzel {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+/* line 63, ../sass/screen.scss */
+.logo {
+  font-size: 2em;
+  color: #906f62;
+}
+/* line 66, ../sass/screen.scss */
+.logo span {
+  display: block;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+/* line 73, ../sass/screen.scss */
+.ir {
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+/* line 78, ../sass/screen.scss */
+a.ir {
+  display: block;
+}
+
+/* line 82, ../sass/screen.scss */
+.color-translucid {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* line 86, ../sass/screen.scss */
+.color-translucid.dark {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 90, ../sass/screen.scss */
+.color-translucid.coffe {
+  color: rgba(144, 111, 98, 0.8);
+}
+
+/* line 95, ../sass/screen.scss */
+.col-1 {
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+}
+/* line 99, ../sass/screen.scss */
+.col-1:first-of-type {
+  margin-left: 0;
+}
+
+/* line 104, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 109, ../sass/screen.scss */
+.cf::after, .cf::before {
+  content: " ";
+  display: table;
+}
+/* line 113, ../sass/screen.scss */
+.cf::after {
+  clear: both;
+}
+
+/* line 118, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #505050;
+}
+
+/* line 122, ../sass/screen.scss */
+header {
+  background: white;
+  position: fixed;
+  margin-left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: solid 1px #eaeaea;
+  width: 100%;
+  z-index: 500;
+}
+/* line 130, ../sass/screen.scss */
+header .wrapp {
+  position: relative;
+}
+/* line 133, ../sass/screen.scss */
+header h1 {
+  padding: .5em 0;
+  float: left;
+}
+/* line 137, ../sass/screen.scss */
+header + * {
+  padding-top: 7em;
+}
+
+/* line 142, ../sass/screen.scss */
+nav {
+  float: right;
+  padding: 1.5em 0;
+}
+/* line 146, ../sass/screen.scss */
+nav ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 2em;
+  float: left;
+}
+/* line 151, ../sass/screen.scss */
+nav ul li:first-child {
+  margin: 0;
+}
+/* line 154, ../sass/screen.scss */
+nav ul li a {
+  color: #72584d;
+}
+/* line 156, ../sass/screen.scss */
+nav ul li a:hover {
+  color: #f26430;
+}
+
+/* line 164, ../sass/screen.scss */
+section[data-gallery] {
+  position: relative;
+}
+/* line 166, ../sass/screen.scss */
+section[data-gallery] .gallery-items {
+  position: relative;
+  overflow: hidden;
+  min-height: 30.938em;
+}
+/* line 170, ../sass/screen.scss */
+section[data-gallery] .gallery-items > div {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  transition: all ease 1.5s;
+  opacity: 0;
+}
+/* line 177, ../sass/screen.scss */
+section[data-gallery] .gallery-items > div.active {
+  opacity: 1;
+}
+/* line 182, ../sass/screen.scss */
+section[data-gallery] .logo {
+  font-size: 10em;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+}
+/* line 188, ../sass/screen.scss */
+section[data-gallery] .wrapp {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+/* line 194, ../sass/screen.scss */
+section[data-gallery] .thumbs {
+  position: absolute;
+  right: 0;
+  bottom: 1.5em;
+}
+
+/* line 201, ../sass/screen.scss */
+ul[data-thumbs] {
+  max-width: 60em;
+  margin: 0 auto;
+  position: relative;
+  top: -2em;
+}
+/* line 202, ../sass/screen.scss */
+ul[data-thumbs] li {
+  background: white;
+  width: 10em;
+  height: 10em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  float: left;
+  margin-left: 2em;
+  opacity: 0.999;
+  transition: all linear 0.5s;
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+/* line 214, ../sass/screen.scss */
+ul[data-thumbs] li:first-child {
+  margin: 0;
+}
+/* line 217, ../sass/screen.scss */
+ul[data-thumbs] li.active {
+  background: rgba(255, 255, 255, 0.85);
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+/* line 222, ../sass/screen.scss */
+ul[data-thumbs] li:hover {
+  cursor: hand;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.85);
+}
+/* line 228, ../sass/screen.scss */
+ul[data-thumbs] img {
+  position: relative;
+  background: white;
+  width: auto;
+  height: inherit;
+}
+
+/* line 240, ../sass/screen.scss */
+.recent-articles {
+  font-size: 2.5em;
+}
+
+/* line 244, ../sass/screen.scss */
+main {
+  padding: 2.5em 0 1em 0;
+}
+
+/* line 248, ../sass/screen.scss */
+article {
+  padding: 1.5em;
+  border-bottom: 1px solid #e3dccf;
+  margin-bottom: 1em;
+  background: white;
+  border-radius: 20px;
+}
+/* line 254, ../sass/screen.scss */
+article a {
+  display: block;
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 1.8em;
+  color: inherit;
+  color: #906f62;
+}
+/* line 261, ../sass/screen.scss */
+article a:hover {
+  opacity: 0.8;
+}
+/* line 265, ../sass/screen.scss */
+article p {
+  padding: .5em 0;
+  line-height: 1.8em;
+}
+/* line 269, ../sass/screen.scss */
+article span {
+  color: #b1978d;
+}
+/* line 272, ../sass/screen.scss */
+article .readmore {
+  color: #f26430;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+/* line 279, ../sass/screen.scss */
+footer {
+  background: url(../images/patterns/tweed.png);
+  padding: 2em 0 5em 0;
+}
+/* line 282, ../sass/screen.scss */
+footer nav {
+  color: white;
+  float: none;
+  width: 460px;
+  margin: 0 auto;
+}
+/* line 288, ../sass/screen.scss */
+footer nav li a {
+  color: white;
+}
+/* line 290, ../sass/screen.scss */
+footer nav li a:hover {
+  color: white;
+  opacity: 0.8;
+}
+/* line 297, ../sass/screen.scss */
+footer p {
+  text-align: center;
+  color: whitesmoke;
+}
